@@ -1,0 +1,152 @@
+body {
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #ef696a;
+}
+
+.container {
+    max-width: 960px;
+    margin: auto;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #e8e7ed;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+header h1 {
+    margin: 0;
+    color: #ff6b6b;
+}
+
+nav a {
+    color: #333;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+nav .active {
+    color: #ff6b6b;
+}
+
+.search input[type="search"] {
+    padding: 5px;
+    border: 1px solid #ccc;
+}
+
+.form-section {
+    background-color: #e8e7ed;
+    padding: 40px;
+    margin-top: 30px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.form-section h2 {
+    color: #ff6b6b;
+}
+
+.form-section p {
+    color: #333;
+}
+
+form {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+input, textarea {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 10px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.file-upload {
+    border: 1px dashed #ddd;
+    text-align: center;
+    padding: 20px;
+    border-radius: 4px;
+    width: 100%;
+}
+
+.file-label {
+    color: #c38787;
+    cursor: pointer;
+}
+
+.checkbox input {
+    margin-right: 10px;
+}
+
+button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    background-color: #ff6b6b;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-left: auto;
+}
+
+button:hover {
+    background-color: #e55a5a;
+}
+.form-container {
+    max-width: 600px; /* or whatever max-width you desire */
+    margin: auto;
+    padding: 1em;
+    background-color: #fff; /* or any other color you prefer */
+}
+
+.form-group {
+    margin-bottom: 10px;
+}
+
+.form-group label {
+    display: block; /* This ensures the label is on a new line */
+}
+
+.form-group input[type="text"],
+.form-group input[type="email"],
+.form-group input[type="tel"],
+.form-group input[type="file"],
+.form-group button,
+.form-group .checkbox {
+    width: 100%; /* This ensures the inputs take the full width */
+    box-sizing: border-box; /* This ensures padding doesn't affect the width */
+    /* Add other styles such as padding, border, etc., as needed */
+}
+
+.form-group .checkbox {
+    display: flex;
+    align-items: center;
+}
+
+.form-group .checkbox label {
+    margin-left: 8px; /* Space between the checkbox and the label text */
+}
+
+#submitBtn {
+    background-color: red; /* Adjust the color to match your button color */
+    color: white;
+    border: none;
+    cursor: pointer;
+    padding: 10px 20px;
+    border-radius: 4px;
+    margin-top: 10px; /* Space above the button if needed */
+    float: right; /* Aligns the button to the right */
+}
+
+/* Clear the float */
+.form-container::after {
+    content: "";
+    display: block;
+    clear: both;
+}
